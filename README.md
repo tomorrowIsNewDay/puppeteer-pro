@@ -23,3 +23,7 @@
 - page.$eval(selector, pageFunction[, ...args]) 此方法在页面内执行document.querySelector, 然后将匹配到的元素作为第一个参数传给pageFunction
 
 - page.evaluate(pageFunction, ...args) 向页面中注入函数
+
+#### cheerio
+类似jQuery语法，操作DOM
+const $ = cheerio.load(html)
